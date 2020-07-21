@@ -14,8 +14,8 @@ import PatientHealthRecord from "./pages/pthealthrecord";
 import DrAppointment from "./pages/drappointment";
 import DrApp from "./pages/drupapp";
 import PtApp from "./pages/ptuapp";
-import Ptzoom from "./pages/ptzoom";
-import Drzoom from "./pages/drzoom";
+// import Ptzoom from "./pages/ptzoom";
+// import Drzoom from "./pages/drzoom";
 
 import PrivateRoute from './PrivateRoute';
 import { AuthContext } from "./context/auth";
@@ -50,8 +50,8 @@ function App(props) {
             <PrivateRoute path="/drappointment" component={DrAppointment} />
             <PrivateRoute path="/drapp" component={DrApp} />
             <PrivateRoute path="/ptapp" component={PtApp} />
-            <PrivateRoute path="/ptzoom" component={Ptzoom} />
-            <PrivateRoute path="/drzoom" component={Drzoom} />
+            {/* <PrivateRoute path="/ptzoom" component={Ptzoom} /> */}
+            {/* <PrivateRoute path="/drzoom" component={Drzoom} /> */}
 
 
     </Router>

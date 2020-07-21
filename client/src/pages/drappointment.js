@@ -115,7 +115,7 @@ function PatientSearch() {
                                 <div className="sb-sidenav-collapse-arrow"><i className="fas fa-angle-down"></i></div>
                             </a>
 
-                            <a className="nav-link collapsed" href="/drzoom" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                            <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                                 <div className="sb-nav-link-icon"><i className="fas fa-book-open"></i></div>
                                 Start Meeting
   
@@ -180,7 +180,7 @@ function PatientSearch() {
                                 <div className="card bg-info text-white mb-4">
                                     <div className="card-body">Start Virtual Appointment</div>
                                     <div className="card-footer d-flex align-items-center justify-content-between">
-                                        <a className="small text-white stretched-link" href="/drzoom">View Details</a>
+                                        <a className="small text-white stretched-link" href="#">View Details</a>
                                         <div className="small text-white"><i className="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
